@@ -2,9 +2,46 @@
 
 ## Python List Exercises
 
-# Python List Operations
 
+| Program Description                             |
+|-------------------------------------------------|
+| Interchange first and last elements in a list   |
+| Swap two elements in a list                     |
+| Swap elements in a String list                  |
+| Ways to find the length of a list               |
+| Maximum of two numbers in Python               |
+| Minimum of two numbers in Python               |
+| Reversing a List                                |
+| Cloning or Copying a list                      |
+| Count occurrences of an element in a list      |
+| Find sum and average of List in Python         |
+| Sum of number digits in List                   |
+| Multiply all numbers in the list               |
+| Find the smallest number in a list             |
+| Find the largest number in a list              |
+| Find the second largest number in a list       |
+| Print even numbers in a list                   |
+| Print odd numbers in a List                    |
+| Print all even numbers in a range              |
+| Print all odd numbers in a range               |
+| Count Even and Odd numbers in a List           |
+| Print positive numbers in a list               |
+| Print negative numbers in a list               |
+| Print all positive numbers in a range          |
+| Print all negative numbers in a range          |
+| Count positive and negative numbers in a list  |
+| Remove multiple elements from a list in Python |
+| Remove empty tuples from a list                |
+| Program to print duplicates from a list of integers |
+| Remove empty List from List                    |
+| Convert List to List of dictionaries           |
+| Convert Lists of List to Dictionary            |
+| Uncommon elements in Lists of List             |
+| Select Random value from list of lists         |
+| Reverse Row sort in Lists of List              |
+| Pair elements with Rear element in Matrix Row   |
 
+# Answer :
 
 
 1. Python program to interchange the first and last elements in a list:
