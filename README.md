@@ -3,43 +3,43 @@
 ## Python List Exercises
 
 
-| Program Description                             |
-|-------------------------------------------------|
-| Interchange first and last elements in a list   |
-| Swap two elements in a list                     |
-| Swap elements in a String list                  |
-| Ways to find the length of a list               |
-| Maximum of two numbers in Python               |
-| Minimum of two numbers in Python               |
-| Reversing a List                                |
-| Cloning or Copying a list                      |
-| Count occurrences of an element in a list      |
-| Find sum and average of List in Python         |
-| Sum of number digits in List                   |
-| Multiply all numbers in the list               |
-| Find the smallest number in a list             |
-| Find the largest number in a list              |
-| Find the second largest number in a list       |
-| Print even numbers in a list                   |
-| Print odd numbers in a List                    |
-| Print all even numbers in a range              |
-| Print all odd numbers in a range               |
-| Count Even and Odd numbers in a List           |
-| Print positive numbers in a list               |
-| Print negative numbers in a list               |
-| Print all positive numbers in a range          |
-| Print all negative numbers in a range          |
-| Count positive and negative numbers in a list  |
-| Remove multiple elements from a list in Python |
-| Remove empty tuples from a list                |
-| Program to print duplicates from a list of integers |
-| Remove empty List from List                    |
-| Convert List to List of dictionaries           |
-| Convert Lists of List to Dictionary            |
-| Uncommon elements in Lists of List             |
-| Select Random value from list of lists         |
-| Reverse Row sort in Lists of List              |
-| Pair elements with Rear element in Matrix Row   |
+|Sn.no.| Question                             |
+|--|-------------------------------------------------|
+|1| Interchange first and last elements in a list   |
+|2| Swap two elements in a list                     |
+|3| Swap elements in a String list                  |
+|4| Ways to find the length of a list               |
+|5| Maximum of two numbers in Python               |
+|6| Minimum of two numbers in Python               |
+|7| Reversing a List                                |
+|8| Cloning or Copying a list                      |
+|9| Count occurrences of an element in a list      |
+|10| Find sum and average of List in Python         |
+|11| Sum of number digits in List                   |
+|12| Multiply all numbers in the list               |
+|13| Find the smallest number in a list             |
+|14| Find the largest number in a list              |
+|15| Find the second largest number in a list       |
+|16| Print even numbers in a list                   |
+|17| Print odd numbers in a List                    |
+|18| Print all even numbers in a range              |
+|19| Print all odd numbers in a range               |
+|20| Count Even and Odd numbers in a List           |
+|21| Print positive numbers in a list               |
+|22| Print negative numbers in a list               |
+|23| Print all positive numbers in a range          |
+|24| Print all negative numbers in a range          |
+|25| Count positive and negative numbers in a list  |
+|26| Remove multiple elements from a list in Python |
+|27| Remove empty tuples from a list                |
+|28| Program to print duplicates from a list of integers |
+|29| Remove empty List from List                    |
+|30| Convert List to List of dictionaries           |
+|31| Convert Lists of List to Dictionary            |
+|32| Uncommon elements in Lists of List             |
+|33| Select Random value from list of lists         |
+|34| Reverse Row sort in Lists of List              |
+|35| Pair elements with Rear element in Matrix Row   |
 
 # Answer :
 
