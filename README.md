@@ -165,3 +165,89 @@ product = multiply_all_numbers(my_list)
 print("Product of all numbers:", product)
 ```
 
+13. Python program to find the smallest number in a list:
+
+```python
+def find_smallest_number(lst):
+    if len(lst) == 0:
+        return None  # Handle empty list
+    return min(lst)
+
+# Example usage:
+my_list = [10, 2, 45, 7, 1]
+smallest = find_smallest_number(my_list)
+print("Smallest number:", smallest)
+```
+
+14. Python program to find the largest number in a list:
+
+```python
+def find_largest_number(lst):
+    if len(lst) == 0:
+        return None  # Handle empty list
+    return max(lst)
+
+# Example usage:
+my_list = [10, 2, 45, 7, 1]
+largest = find_largest_number(my_list)
+print("Largest number:", largest)
+```
+
+15. Python program to find the second largest number in a list:
+
+```python
+def find_second_largest_number(lst):
+    if len(lst) < 2:
+        return None  # Handle insufficient elements
+    sorted_list = sorted(lst, reverse=True)
+    return sorted_list[1]
+
+# Example usage:
+my_list = [10, 2, 45, 7, 1]
+second_largest = find_second_largest_number(my_list)
+print("Second largest number:", second_largest)
+```
+
+16. Python program to print even numbers in a list:
+
+```python
+def print_even_numbers(lst):
+    for num in lst:
+        if num % 2 == 0:
+            print(num)
+
+# Example usage:
+my_list = [1, 2, 3, 4, 5, 6]
+print("Even numbers:")
+print_even_numbers(my_list)
+```
+
+17. Python program to print odd numbers in a list:
+
+```python
+def print_odd_numbers(lst):
+    for num in lst:
+        if num % 2 != 0:
+            print(num)
+
+# Example usage:
+my_list = [1, 2, 3, 4, 5, 6]
+print("Odd numbers:")
+print_odd_numbers(my_list)
+```
+
+18. Python program to print all even numbers in a range:
+
+```python
+def print_even_numbers_in_range(start, end):
+    for num in range(start, end + 1):
+        if num % 2 == 0:
+            print(num)
+
+# Example usage:
+start = 1
+end = 10
+print("Even numbers in the range:")
+print_even_numbers_in_range(start, end)
+```
+
