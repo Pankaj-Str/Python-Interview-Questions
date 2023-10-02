@@ -1,2 +1,2 @@
-# Python Interview Questions
+# Python Exercises, Practice Questions and Solutions
 
