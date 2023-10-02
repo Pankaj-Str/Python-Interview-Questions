@@ -251,3 +251,150 @@ print("Even numbers in the range:")
 print_even_numbers_in_range(start, end)
 ```
 
+19. Python program to print all odd numbers in a range:
+
+```python
+def print_odd_numbers_in_range(start, end):
+    for num in range(start, end + 1):
+        if num % 2 != 0:
+            print(num)
+
+# Example usage:
+start = 1
+end = 10
+print("Odd numbers in the range:")
+print_odd_numbers_in_range(start, end)
+```
+
+20. Python program to count even and odd numbers in a list:
+
+```python
+def count_even_and_odd_numbers(lst):
+    even_count = 0
+    odd_count = 0
+    for num in lst:
+        if num % 2 == 0:
+            even_count += 1
+        else:
+            odd_count += 1
+    return even_count, odd_count
+
+# Example usage:
+my_list = [1, 2, 3, 4, 5, 6]
+even, odd = count_even_and_odd_numbers(my_list)
+print(f"Even numbers: {even}, Odd numbers: {odd}")
+```
+
+21. Python program to print positive numbers in a list:
+
+```python
+def print_positive_numbers(lst):
+    for num in lst:
+        if num > 0:
+            print(num)
+
+# Example usage:
+my_list = [-1, 2, -3, 4, 5, -6]
+print("Positive numbers:")
+print_positive_numbers(my_list)
+```
+
+22. Python program to print negative numbers in a list:
+
+```python
+def print_negative_numbers(lst):
+    for num in lst:
+        if num < 0:
+            print(num)
+
+# Example usage:
+my_list = [-1, 2, -3, 4, 5, -6]
+print("Negative numbers:")
+print_negative_numbers(my_list)
+```
+
+23. Python program to print all positive numbers in a range:
+
+```python
+def print_positive_numbers_in_range(start, end):
+    for num in range(start, end + 1):
+        if num > 0:
+            print(num)
+
+# Example usage:
+start = -5
+end = 5
+print("Positive numbers in the range:")
+print_positive_numbers_in_range(start, end)
+```
+
+24. Python program to print all negative numbers in a range:
+
+```python
+def print_negative_numbers_in_range(start, end):
+    for num in range(start, end + 1):
+        if num < 0:
+            print(num)
+
+# Example usage:
+start = -5
+end = 5
+print("Negative numbers in the range:")
+print_negative_numbers_in_range(start, end)
+```
+
+25. Python program to count positive and negative numbers in a list:
+
+```python
+def count_positive_and_negative_numbers(lst):
+    positive_count = sum(1 for num in lst if num > 0)
+    negative_count = sum(1 for num in lst if num < 0)
+    return positive_count, negative_count
+
+# Example usage:
+my_list = [-1, 2, -3, 4, 5, -6]
+positive, negative = count_positive_and_negative_numbers(my_list)
+print(f"Positive numbers: {positive}, Negative numbers: {negative}")
+```
+
+26. Remove multiple elements from a list in Python:
+
+To remove multiple elements from a list, you can use list comprehension. Here's an example that removes elements based on a condition:
+
+```python
+my_list = [1, 2, 3, 4, 5, 6]
+elements_to_remove = [2, 4, 6]
+my_list = [x for x in my_list if x not in elements_to_remove]
+print(my_list)
+```
+
+27. Python program to remove empty tuples from a list:
+
+```python
+def remove_empty_tuples(lst):
+    return [tup for tup in lst if tup]
+
+# Example usage:
+my_list = [(1, 2), (), (3, 4), (), (5, 6)]
+filtered_list = remove_empty_tuples(my_list)
+print(filtered_list)
+```
+
+28. Python program to print duplicates from a list of integers:
+
+```python
+def find_duplicates(lst):
+    seen = set()
+    duplicates = set()
+    for num in lst:
+        if num in seen:
+            duplicates.add(num)
+        else:
+            seen.add(num)
+    return list(duplicates)
+
+# Example usage:
+my_list = [1, 2, 2, 3, 4, 4, 5, 6]
+duplicates = find_duplicates(my_list)
+print("Duplicate elements:", duplicates)
+```
